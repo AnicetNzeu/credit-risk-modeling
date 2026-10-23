@@ -1,0 +1,20 @@
+| predictor             | iv     | classes | strength     |
+|-----------------------|--------|---------|--------------|
+| term_months           | 0.1569 | 2       | medium       |
+| dti                   | 0.0491 | 8       | weak         |
+| annual_inc            | 0.0368 | 9       | weak         |
+| verification_status   | 0.0368 | 3       | weak         |
+| revol_util            | 0.0259 | 9       | weak         |
+| loan_amnt             | 0.0234 | 8       | weak         |
+| inq_last_6mths        | 0.0190 | 4       | unpredictive |
+| purpose               | 0.0161 | 6       | unpredictive |
+| home_ownership        | 0.0155 | 4       | unpredictive |
+| credit_history_months | 0.0078 | 9       | unpredictive |
+| emp_length_years      | 0.0066 | 12      | unpredictive |
+| addr_state            | 0.0053 | 18      | unpredictive |
+| revol_bal             | 0.0038 | 8       | unpredictive |
+| open_acc              | 0.0032 | 9       | unpredictive |
+| pub_rec_bankruptcies  | 0.0025 | 3       | unpredictive |
+| total_acc             | 0.0010 | 9       | unpredictive |
+| delinq_2yrs           | 0.0009 | 3       | unpredictive |
+| pub_rec               | 0.0004 | 3       | unpredictive |

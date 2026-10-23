@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------------------
+# Data. Raw archives are large and redistributing them is unnecessary: run
+# src/download_data.py to rebuild them from the original source.
+# ---------------------------------------------------------------------------
+data/raw/
+data/processed/
+*.csv
+*.csv.zip
+*.zip
+*.xls
+*.xlsx
+*.parquet
+*.pkl
+*.feather
+
+# Small derived tables are part of the deliverable and are kept.
+!results/tables/*.csv
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Credentials. Nothing of the sort belongs in this repository.
+# ---------------------------------------------------------------------------
+.env
+*.pem
+*.key
+secrets*

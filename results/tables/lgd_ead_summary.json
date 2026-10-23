@@ -1,0 +1,140 @@
+{
+  "defaults_modelled": 158150,
+  "share_with_zero_recovery": 0.18635472652545051,
+  "mean_observed_lgd": 0.9110173913471443,
+  "mean_observed_ccf": 0.6355898332961145,
+  "lgd_stage1": [
+    {
+      "sample": "estimation",
+      "n": 62246,
+      "default_rate": 0.8535970182822993,
+      "auc": 0.641366931089277,
+      "gini": 0.282733862178554,
+      "ks": 0.20789136117263396,
+      "brier": 0.12118571531616108,
+      "hl_statistic": 26.795136575314693,
+      "hl_p_value": 0.0007669256662844808,
+      "mean_predicted": 0.8535970182822993
+    },
+    {
+      "sample": "out of sample",
+      "n": 15604,
+      "default_rate": 0.8493335042296847,
+      "auc": 0.6422779231257094,
+      "gini": 0.28455584625141883,
+      "ks": 0.21572483785201418,
+      "brier": 0.12380261458712971,
+      "hl_statistic": 9.799360825244609,
+      "hl_p_value": 0.27939157890899097,
+      "mean_predicted": 0.8547513187203784
+    },
+    {
+      "sample": "out of time",
+      "n": 80300,
+      "default_rate": 0.7757409713574097,
+      "auc": 0.5880416463128341,
+      "gini": 0.17608329262566813,
+      "ks": 0.1236325383813805,
+      "brier": 0.17535516954718425,
+      "hl_statistic": 3198.0607463655724,
+      "hl_p_value": 0.0,
+      "mean_predicted": 0.8403345903234918
+    }
+  ],
+  "lgd_combined": [
+    {
+      "sample": "estimation",
+      "n": 62246,
+      "observed_mean": 0.9177994392839138,
+      "predicted_mean": 0.9178094297226856,
+      "r_squared": 0.02002464585923458,
+      "rmse": 0.09918751017709579,
+      "mae": 0.06514078648333634,
+      "correlation": 0.14150962550478857
+    },
+    {
+      "sample": "out of sample",
+      "n": 15604,
+      "observed_mean": 0.9184551690624956,
+      "predicted_mean": 0.9179424994201532,
+      "r_squared": 0.016118869476774433,
+      "rmse": 0.10068424502869797,
+      "mae": 0.06574559779832208,
+      "correlation": 0.12771438599156756
+    },
+    {
+      "sample": "out of time",
+      "n": 80300,
+      "observed_mean": 0.9043148454026552,
+      "predicted_mean": 0.9157125771172814,
+      "r_squared": 0.002366352348129319,
+      "rmse": 0.11342790681054334,
+      "mae": 0.07204462792918538,
+      "correlation": 0.11218271196017425
+    }
+  ],
+  "ead": [
+    {
+      "sample": "estimation",
+      "n": 62246,
+      "observed_mean": 0.6283502611243179,
+      "predicted_mean": 0.6283502611243179,
+      "r_squared": 0.08024864399545173,
+      "rmse": 0.2300566379630173,
+      "mae": 0.19048778370936761,
+      "correlation": 0.2832819161108803
+    },
+    {
+      "sample": "out of sample",
+      "n": 15604,
+      "observed_mean": 0.6272927133049687,
+      "predicted_mean": 0.6274677093239058,
+      "r_squared": 0.0821115349033672,
+      "rmse": 0.23047277231937938,
+      "mae": 0.19012798845817136,
+      "correlation": 0.2865787974166762
+    },
+    {
+      "sample": "out of time",
+      "n": 80300,
+      "observed_mean": 0.6428140259455228,
+      "predicted_mean": 0.6270206322979636,
+      "r_squared": 0.0888122706313339,
+      "rmse": 0.2235424354489402,
+      "mae": 0.1852645167560683,
+      "correlation": 0.30618196941119874
+    }
+  ],
+  "ecl": [
+    {
+      "sample": "estimation",
+      "loans": 372954,
+      "exposure_usd": 5332070400.0,
+      "expected_loss_usd": 549682459.9647882,
+      "realised_loss_usd": 526656759.57441175,
+      "expected_loss_pct": 10.30898729253065,
+      "realised_loss_pct": 9.877153151886587,
+      "coverage_ratio": 1.04372050670912
+    },
+    {
+      "sample": "out of sample",
+      "loans": 93391,
+      "exposure_usd": 1332768100.0,
+      "expected_loss_usd": 137396245.71586996,
+      "realised_loss_usd": 130325141.45473042,
+      "expected_loss_pct": 10.30908870912126,
+      "realised_loss_pct": 9.778530972847445,
+      "coverage_ratio": 1.054257407145004
+    },
+    {
+      "sample": "out of time",
+      "loans": 421095,
+      "exposure_usd": 6417608175.0,
+      "expected_loss_usd": 657244395.7741476,
+      "realised_loss_usd": 715928991.7001419,
+      "expected_loss_pct": 10.241267117778621,
+      "realised_loss_pct": 11.155698075944656,
+      "coverage_ratio": 0.9180301446004667
+    }
+  ]
+}

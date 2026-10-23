@@ -1,0 +1,8 @@
+# Minimum versions the project was developed and tested against.
+# Nothing here needs credentials or a paid account.
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+statsmodels>=0.14
+matplotlib>=3.7
